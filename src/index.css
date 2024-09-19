@@ -1,0 +1,88 @@
+/* Common CSS Starts */
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --fs-shadows: "Shadows Into Light", cursive;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", display;
+  letter-spacing: -0.6px;
+}
+p {
+  line-height: 150%;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+input {
+  font-family: "Poppins", sans-serif;
+}
+/* .container_full {
+  width: 100%;
+  height: auto;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+} */
+.fix {
+  overflow: hidden;
+}
+.aligncenter {
+  display: block;
+  margin: 0 auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+/* Common CSS Ends */

@@ -1,0 +1,41 @@
+.slide_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.slide_content h4 {
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #fff;
+  /* font-family: poppins; */
+  font-weight: 500;
+}
+
+.slide_content h2 {
+  font-size: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.slide_content p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #777;
+}
+.slide_content h4::after {
+  content: url("https://www.portotheme.com/wordpress/porto/classic-original/wp-content/uploads/sites/2/2022/07/wpb-co-slide-title-border.png");
+  padding-left: 26px;
+}
+.slide_content h4::before {
+  content: url("https://www.portotheme.com/wordpress/porto/classic-original/wp-content/uploads/sites/2/2022/07/wpb-co-slide-title-border.png");
+  padding-right: 26px;
+}
+.swiperSingleImage img {
+  transform: scale(136%);
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  padding: 56px 0;
+}

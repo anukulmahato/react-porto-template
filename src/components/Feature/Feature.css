@@ -1,0 +1,58 @@
+.feature_wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-bottom: 40px;
+}
+
+.feature_title {
+  font-size: 28px;
+  font-weight: 700;
+}
+.feature_item {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 47%;
+}
+
+.feature_icon i {
+  font-size: 26px;
+  color: #0088cc;
+  margin-top: 5px;
+}
+.item_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+}
+.feature_content h2 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.feature_content p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.feature_items {
+  width: 65%;
+}
+
+.faq {
+  width: 35%;
+}
+hr.hr_feater {
+  margin: 40px 0 66px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+h2.feature_title,
+.faq h2 {
+  margin-bottom: 32px;
+}
+.faq h2 {
+  font-size: 25px;
+  font-weight: 400;
+  color: rgb(34, 37, 41);
+}

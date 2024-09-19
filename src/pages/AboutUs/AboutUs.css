@@ -1,0 +1,44 @@
+.breadcome_area {
+  padding: 120px 0;
+}
+.breadcome_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+ul.breadcrumb {
+  display: flex;
+}
+
+ul.breadcrumb li a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+ul.breadcrumb li {
+  color: #e6e6e6;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0 10px;
+  position: relative;
+}
+ul.breadcrumb li a::after {
+  content: "/";
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.breadcome_content h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.breadcome_content p {
+  font-size: 18px;
+  color: #e6e6e6;
+}

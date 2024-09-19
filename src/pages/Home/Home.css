@@ -1,0 +1,252 @@
+/* Call To Action */
+.callToAction_area {
+  background-color: #0088cc;
+  padding: 40px 0;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.action_content h2 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.action_content h2 span {
+  font-size: 32px;
+  font-family: shadow into light;
+  font-weight: 400;
+  font-family: var(--fs-shadows);
+}
+.action_content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffffb3;
+}
+.action_content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffffb3;
+}
+
+button.start_btn {
+  padding: 16px 25px;
+  border: 1px solid #212529;
+  background: #212529;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+button.more_btn {
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffffb3;
+}
+
+/* Work planning  */
+.planning_area {
+  padding: 60px 0;
+}
+.title_section h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+.title_section.text-center {
+  width: 100%;
+}
+.title_section span {
+  background: #21252f;
+  color: #fff;
+  display: inline-block;
+  padding: 6px;
+}
+
+.title_section p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #777;
+  width: 88%;
+  margin: 0 auto;
+}
+.planning_area {
+  padding: 60px 0 0 0;
+}
+.planning_section {
+  width: 100%;
+  background: url("https://www.portotheme.com/wordpress/porto/classic-original/wp-content/themes/porto/images/concept.png")
+    no-repeat center 0;
+  margin: 120px 0 80px 0;
+}
+.planning_section .left_col {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planning_section .box_item img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.planning_section .box_item h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #08c;
+}
+.planning_section .left_col {
+  display: flex;
+  gap: 38px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.planning_section .box_item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background: #fff;
+}
+
+.planning_section .box_item h2,
+.planning_section .right_col h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #08c;
+  padding-top: 20px;
+  font-family: var(--fs-shadows);
+}
+.planning_section .right_col h2 {
+  font-size: 31px !important;
+}
+
+.planning_section .right_col img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 5px;
+  background: #fff;
+}
+.default_width {
+  width: 86%;
+  margin: 0 auto;
+}
+.planning_section .left_col .box_item:nth-child(odd) {
+  margin-top: 65px;
+}
+
+/* Happy Client Section */
+.happy_client_area {
+  padding-bottom: 60px;
+}
+.client_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+.client_logo img {
+  width: 164px;
+  opacity: 0.5;
+}
+.client_logo img:nth-child(4) {
+  opacity: 1;
+}
+
+.post_clientSay_area {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.bg_map-image {
+  display: block;
+  margin: 0 auto;
+}
+.post_wrap {
+  width: 50%;
+}
+
+.Client_say_wrap {
+  width: 50%;
+}
+
+.client_section {
+  background-color: #fbfbfb70;
+  margin-top: -200px;
+  position: relative;
+  z-index: 999;
+  padding: 60px 0;
+}
+
+/* Blog Post Slider */
+.post_item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.post_content h2 {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000;
+  font-weight: 700;
+}
+
+.post_content p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.post_content a {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+}
+.post_date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  justify-content: center;
+  height: 60px;
+}
+
+span.day {
+  padding: 10px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0099e6;
+}
+
+span.month {
+  background: #0099e6;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  padding: 0px !important;
+}
+.swiper {
+  padding: 0px 0px 50px !important;
+}
